@@ -16,7 +16,10 @@ idna==2.8
 itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
+mysql-connector-python==8.0.15
 Pillow==5.4.1
+pkg-resources==0.0.0
+protobuf==3.6.1
 pymemcache==2.1.1
 python3-memcached==1.51
 pytz==2018.9
