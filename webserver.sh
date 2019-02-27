@@ -1,9 +1,9 @@
 #!/bin/bash
 
-HOME=/home/crmdancer
-VENVDIR=$HOME/env/bin
-BINDIR=$HOME/thewire
+HOME=/home/alex
+VENVDIR=$HOME/crmdancer/venv/bin
+BINDIR=$HOME/crmdancer
 
 cd $BINDIR
 source $VENVDIR/activate
-/home/crmdancer/env/bin/gunicorn  -b localhost:8001  main:app 
+/home/alex/crmdancer/venv/bin/gunicorn  -b localhost:8001  main:app 
